@@ -86,7 +86,7 @@ app.put('/usuario/:id', function(req, res) {
     });
 });
 
-app.delete('/usuario:id', function(req, res) {
+app.delete('/usuario/:id', function(req, res) {
 
     let id = req.params.id;
     let cambiaEstado = {
